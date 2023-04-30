@@ -9,7 +9,7 @@
   box-sizing: border-box;
   font-family: 'Mitr', sans-serif;
   color: white;
-  text-shadow: 0 0 10px #eeff00, 0 0 20px #ffffff, 0 0 30px #000000, 0 0 40px #ffffff, 0 0 70px #000000, 0 0 80px #000000, 0 0 100px #000000, 0 0 150px #000000;
+ 
 }
 body {
   height: 100vh;

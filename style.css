@@ -16,7 +16,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("img/6333.png");
+  background-color: #333;
 }
 .profile-card {
   display: flex;

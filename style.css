@@ -16,9 +16,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("img/6333.png");
-
-  
+background-color: #333;
 }
 .profile-card {
   display: flex;
@@ -26,7 +24,8 @@ body {
   align-items: center;
   max-width: 370px;
   width: 100%;
-  background-color: #000000;
+
+  backdrop-filter: blur(10px);
   border-radius: 24px;
   padding: 25px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -68,12 +67,12 @@ body {
   font-size: 22px;
   font-weight: 500;
   color: #fff;
-  text-shadow: 0 0 10px #eeff00, 0 0 20px #ffffff, 0 0 30px #000000, 0 0 40px #ffffff, 0 0 70px #000000, 0 0 80px #000000, 0 0 100px #000000, 0 0 150px #000000;
+ 
 }
 .text-data .job {
   font-weight: 400;
   color: #fff;
-  text-shadow: 0 0 10px #eeff00, 0 0 20px #ffffff, 0 0 30px #000000, 0 0 40px #ffffff, 0 0 70px #000000, 0 0 80px #000000, 0 0 100px #000000, 0 0 150px #000000;
+ 
 }
 .profile-card .media-buttons {
   display: flex;
@@ -139,5 +138,6 @@ body {
 @media (min-width: 768px) {
   body {
     background-size: cover;
+   
   }
 }
